@@ -1,0 +1,48 @@
+.root {
+    -fx-background-image: url(/pictures/blueBackGround.jpg);
+    -fx-background-size: cover;
+}
+
+#chart {
+    -fx-background-color: #33c1b5;
+    -fx-border-style: solid;
+    -fx-border-color: blue;
+}
+
+#register {
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 100px;
+    -fx-text-fill: #33c1b5;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+#register:hover {
+    -fx-background-color: #33c1b5;
+    -fx-text-fill: white;
+}
+#register:pressed {
+    -fx-translate-y: +2;
+}
+
+#back {
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 100px;
+    -fx-text-fill: #33c1b5;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+#back:hover {
+    -fx-background-color: #33c1b5;
+    -fx-text-fill: white;
+}
+#back:pressed {
+    -fx-translate-y: +2;
+}
+
+#error{
+    -fx-fill: #280202;
+}
+
+

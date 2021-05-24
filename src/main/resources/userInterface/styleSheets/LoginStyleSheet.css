@@ -1,0 +1,36 @@
+
+.root {
+    -fx-max-width: 500;
+    -fx-max-height: 500;
+    -fx-min-height: 500;
+    -fx-min-width: 500;
+    -fx-background-image: url(../../pictures/backGroundForLogin.jpg);
+    -fx-background-size: cover;
+}
+
+#userList{
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-pref-width: 100px;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+}
+.button:pressed {
+    -fx-translate-y: +2;
+}
+
+#chart{
+    -fx-background-color: white;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}

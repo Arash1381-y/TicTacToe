@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="/userInterface/styleSheets/RegisterStyleSheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controllers.RegisterController">
+   <children>
+      <VBox fx:id="chart" alignment="TOP_CENTER" layoutX="169.0" layoutY="81.0" prefHeight="200.0" prefWidth="281.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="60.0" text="Register" textAlignment="CENTER" />
+            <Label alignment="CENTER" prefHeight="18.0" prefWidth="283.0" />
+            <Label prefHeight="18.0" prefWidth="68.0" text="username:" />
+            <TextField fx:id="username" alignment="CENTER" prefHeight="15.0" prefWidth="282.0" />
+            <Label prefHeight="18.0" prefWidth="62.0" text="password:" />
+            <PasswordField fx:id="userPass" alignment="CENTER" prefHeight="14.0" prefWidth="282.0" />
+            <Label fx:id="error" />
+         </children>
+      </VBox>
+      <Button fx:id="back" layoutX="539.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToWelcomeScene" prefHeight="26.0" prefWidth="42.0" text="back" />
+      <Button fx:id="register" layoutX="268.0" layoutY="303.0" mnemonicParsing="false" onAction="#makeNewUser" prefHeight="26.0" prefWidth="60.0" text="register" />
+   </children>
+</AnchorPane>

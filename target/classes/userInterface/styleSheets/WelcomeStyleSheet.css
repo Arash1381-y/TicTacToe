@@ -1,0 +1,31 @@
+
+.root {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-max-width: 470;
+    -fx-max-height: 470;
+    -fx-min-height: 470;
+    -fx-min-width: 470;
+    -fx-background-image:url(/pictures/neonBackGround.jpg) ;
+    -fx-background-size: cover;
+}
+
+.option {
+    -fx-text-alignment: center;
+    -fx-position-shape: relative;
+    -fx-border-color: #841fea;
+    -fx-background-color: black;
+}
+
+.option:hover {
+    -fx-background-color: #841fea;
+    -fx-text-fill: black;
+    -fx-border-color: Black;
+}
+
+.option:pressed {
+    -fx-translate-y: +2;
+}
+
+
+
